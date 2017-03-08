@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"/>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewpost" content="width=divce-width,initial-scale=1"/>
+	<title>01.浮动9宫格自适应</title>
+
+	<style>
+
+		#container {
+
+		     
+			max-width:500px;
+			margin:0 auto;
+		}
+		.main {
+			width:100%;
+			padding-bottom:1%;
+			border:1px solid red;
+			overflow: hidden;
+
+		}
+
+	
+
+		.box {
+
+			width:32%;
+			background-color: orange;
+			margin:1% 0 0 1%;
+			float:left;
+			padding: 16% 0;
+			border-radius: 5px;
+		}
+		
+		
+
+</style>
+</head>
+<body>
+	<div id="container">
+		<div class="main">
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+	  </div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
